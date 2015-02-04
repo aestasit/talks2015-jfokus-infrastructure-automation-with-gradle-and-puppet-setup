@@ -1,0 +1,14 @@
+---
+application::tomcat_source_url : http://192.168.48.30/apache-tomcat-8.0.18.tar.gz
+application::app_location      : http://192.168.48.30/petclinic-0.1-SNAPSHOT.war
+application::vhost_name        : local.petclinic.jfokus.se
+application::db_host           : 
+application::db_schema_name    : petclinic
+application::db_user           : petclinic
+application::db_password       : petclinic
+database::db_root_password     : secret
+database::db_schema_name       : petclinic
+database::db_user              : petclinic
+database::db_password          : petclinic
+database::app_host             : 127.0.0.1
+
