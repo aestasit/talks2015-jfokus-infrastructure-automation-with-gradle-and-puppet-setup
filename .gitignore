@@ -1,0 +1,15 @@
+build
+target/*
+.settings/*
+.classpath
+.project
+.gradle
+.idea
+.vagrant
+packer_cache
+kitty
+*.pem
+*.ppk
+*.gz
+*.war
+*.iml
