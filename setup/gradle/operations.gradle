@@ -164,6 +164,7 @@ task initializeNode(description: 'Installs provisioning software (Puppet and fri
       exec 'apt-get -q -y install zip'
     }
 
+    exec 'mkdir -p /etc/puppet'
     exec 'touch /etc/puppet/hiera.yaml'
 
   }
