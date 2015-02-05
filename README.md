@@ -7,4 +7,4 @@ This project contains the following folders:
 
 - `code` - Spring's petclinic application to be deployed
 - `examples` - contains Packer examples to build base boxes for various operating systems
-- `setup` - provisioning code (see README.md)
+- `setup` - provisioning code (see setup/README.md)
